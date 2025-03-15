@@ -88,6 +88,7 @@ h1 {
 
 .remove-btn {
     align-self: center;
+    margin-top: 1.5rem;
 }
 
 #new-book-btn {
@@ -96,4 +97,20 @@ h1 {
 
 .hidden {
     display: none;
+}
+
+.read-status {
+    display: flex;
+
+    gap: 10px;
+}
+
+.read-status button {
+    background-color: #ffb554;
+    color: #fff;
+    border: none;
+    font-size: 0.6rem;
+    padding: 0 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
 }
